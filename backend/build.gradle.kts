@@ -23,6 +23,7 @@ configurations {
 }
 
 dependencies {
+	implementation(project(":shared"))
 	implementation("org.springframework.boot:spring-boot-starter-rsocket")
 	implementation("org.springframework.boot:spring-boot-starter-mustache")
 	implementation("org.springframework.boot:spring-boot-starter-webflux")
